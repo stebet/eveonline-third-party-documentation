@@ -1,4 +1,4 @@
-# Wars and War
+# Wars, War, and War Killmails
 The wars resource allows an application to read wars data.
 
 ## Wars
@@ -21,7 +21,7 @@ The wars resource allows an application to read wars data.
     { "..." },
     { "..." },
     { "..." },
-    { "..." },
+    { "..." }
    ],
   "next": {
     "href": "https://crest-tq.eveonline.com/wars/?page=2"
@@ -88,4 +88,35 @@ The wars resource allows an application to read wars data.
       { "..." }
    ]
   }
+```
+
+
+## War Killmails
+### Routes
+``/wars/<warID:warIdType>/killmails/all``
+
+### GET
+* Cache: 1 hour
+
+```json
+{
+  "totalCount": 75,
+  "totalCount_str": "75",
+  "pageCount": 3,
+  "pageCount_str": "3",
+  "items": [
+    {
+       "href":"https://crest-tq.eveonline.com/killmails/55818219/53b4a9c6c8119eacafd407977ae7a93033b081c6/",
+       "id":55818219,
+       "id_str":"55818219"
+    },
+    { "..." },
+    { "..." },
+    { "..." },
+    { "..." }
+   ],
+  "next": {
+    "href": "https://crest-tq.eveonline.com/wars/505250/killmails/all/?page=2"
+  }
+}
 ```
