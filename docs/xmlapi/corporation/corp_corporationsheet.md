@@ -91,7 +91,6 @@ Public details of any corporation can be retrieved without an API key.
     <factionID>0</factionID>
     <taxRate>93.7</taxRate>
     <memberCount>3</memberCount>
-    <memberLimit>6300</memberLimit>
     <shares>1</shares>
     <logo>
         <graphicID>0</graphicID>
