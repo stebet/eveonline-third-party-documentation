@@ -11,6 +11,8 @@
 * [Inventory](eve_inventory.md)
 * [Loyalty Point Store](eve_loyaltystore.md)
 * [Market](eve_market.md)
+* [NPC Corporations](eve_npcCorps.md)
+* [NPC Corporations and Stations](eve_npc_corps_and_stations.md)
 * [Opportunities Tasks and Opportunities Groups](eve_opportunities.md)
 * [Races](eve_races.md)
 * [Sovereignty Structures and Campaigns](eve_sovereignty.md)

@@ -4,3 +4,4 @@ _build/
 .project
 /nbproject
 .DS_Store
+core
