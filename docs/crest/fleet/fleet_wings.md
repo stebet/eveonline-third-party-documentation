@@ -44,14 +44,11 @@ The fleet wings collection provides details about the fleet's wings and squads, 
 }
 ```
 
-#### Response Description
+#### Response Details
 
 - `name`: Name of the wing.
 - `href`: URL of the wing resource.
-- `squadsList`: Contains details about the wing's squads.
-  - `href`: URL of the squad resource.
-  - `id`: ID of the squad.
-  - `name`: Name of the squad.
+- `squadsList`: List containing details of the wing's squads.
 - `squads`: Contains link to the wing's squad collection.
 - `id`: ID of the wing.
 
@@ -112,6 +109,6 @@ The fleet wing resource allows you to delete or rename a wing.
 }
 ```
 
-#### Request Description
+#### Request Details
 
 - `name`: New name of the wing. May not be longer than 10 characters.

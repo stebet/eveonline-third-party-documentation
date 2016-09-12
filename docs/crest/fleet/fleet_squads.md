@@ -60,6 +60,6 @@ The fleet squad resource allows you to delete or rename a squad.
 }
 ```
 
-#### Request Description
+#### Request Details
 
 - `name`: New name of the squad. May not be longer than 10 characters.

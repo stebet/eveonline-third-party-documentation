@@ -67,14 +67,11 @@ The fleet members collection provides details about the fleet's members, and all
 }
 ```
 
-#### Response Description
+#### Response Details
 
 - `takesFleetWarp`: Does the member take fleet warps.
 - `squadID`: ID of the squad the member is in. If not applicable, will be set to -1.
 - `solarSystem`: Solar system the member is located in.
-  - `href`: URL of the solar system resource.
-  - `id`: ID of the solar system.
-  - `name`: Name of the solar system.
 - `wingID`: ID of the wing the member is in. If not applicable, will be set to -1.
 - `roleID`: ID of the member's role. Possible values:
   - 1 - fleet commander
@@ -82,10 +79,6 @@ The fleet members collection provides details about the fleet's members, and all
   - 3 - squad commander
   - 4 - squad member
 - `character`: Member character.
-  - `isNPC`: Is the character an NPC.
-  - `href`: URL of the character resource.
-  - `id`: ID of the character.
-  - `name`: Name of the character.
 - `boosterID`: ID of the member's boosting position. Possible values:
   - 0 - not a booster
   - 1 - fleet booster
@@ -95,13 +88,7 @@ The fleet members collection provides details about the fleet's members, and all
 - `href`: URL of the member resource.
 - `roleName`: Name of the member's role. Will also indicate if the member is fleet boss.
 - `station`: Station in which the member is docked in. Will not be present if member is not docked in a station.
-  - `href`: URL of the station resource.
-  - `id`: ID of the station.
-  - `name`: Name of the station.
 - `ship`: Ship type the member is currently in.
-  - `href`: URL of the item type resource.
-  - `id`: Type ID of the ship.
-  - `name`: Name of the ship type.
 - `joinTime`: Date and time at which the member joined the fleet.
 
 #### Notes
@@ -125,7 +112,7 @@ The fleet members collection provides details about the fleet's members, and all
 }
 ```
 
-#### Request Description
+#### Request Details
 
 - `role`: Role which the character should have upon joining. Possible values:
   - `fleetCommander`
@@ -176,7 +163,7 @@ The fleet member resource allows you to kick members out of the fleet and move t
 }
 ```
 
-#### Request Description
+#### Request Details
 
 - `newRole`: Role which the character should be moved to. Possible values:
   - `fleetCommander`

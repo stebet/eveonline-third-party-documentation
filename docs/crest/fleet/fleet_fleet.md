@@ -29,7 +29,7 @@ The fleet resource provides details about a fleet.
 }
 ```
 
-#### Response Description
+#### Response Details
 
 - `isVoiceEnabled`: Is EVE Voice enabled.
 - `motd`: Fleet MOTD in CCP flavoured HTML.
@@ -53,7 +53,7 @@ The fleet resource provides details about a fleet.
 }
 ```
 
-#### Request Description
+#### Request Details
 
 - `isFreeMove`: Should free-move be enabled in the fleet. Optional.
 - `motd`: New fleet MOTD in CCP flavoured HTML. Optional.
