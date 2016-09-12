@@ -2,7 +2,7 @@
 
 ## Fleet Squads
 
-The fleet squads collection lets allows you to create new squads.
+The fleet squads collection allows you to create new squads.
 
 - **Route:** [Fleet](fleet_fleet.md) → `wings.href` → `items[].squads.href`
 - **Example URL:** `https://crest-tq.eveonline.com/fleets/1060711261968/wings/2073711261968/squads/`
