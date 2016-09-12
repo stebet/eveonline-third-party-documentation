@@ -44,7 +44,7 @@ The fleet resource provides details about a fleet.
 
 #### Sample Request
 
-``
+`application/vnd.ccp.eve.FleetUpdate-v1+json`
 
 ```json
 {
