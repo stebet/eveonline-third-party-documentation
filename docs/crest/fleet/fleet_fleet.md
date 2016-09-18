@@ -1,6 +1,6 @@
 # Fleet
 
-The fleet resource provides details about a fleet.
+The fleet resource provides details about a fleet. The fleet resource, along with all its children resources, may only be accessed with an access token belonging to the fleet boss.
 
 - **Route:** URL must be provided by user. It can be obtained in the client, under the fleet menu, by using the *Copy External Fleet Link* option. The URL will be copied to the clipboard.
 
