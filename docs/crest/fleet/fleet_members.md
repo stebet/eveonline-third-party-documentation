@@ -93,6 +93,8 @@ The fleet members collection provides details about the fleet's members, and all
 
 #### Notes
 
+- The location and ship type of a member can be delayed by up to 30 seconds.
+
 ### POST
 
 - **Scope:** `fleetWrite`
