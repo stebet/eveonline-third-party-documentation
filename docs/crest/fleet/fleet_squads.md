@@ -63,3 +63,7 @@ The fleet squad resource allows you to delete or rename a squad.
 #### Request Details
 
 - `name`: New name of the squad. May not be longer than 10 characters.
+
+## References
+
+- [Patch notes](https://community.eveonline.com/news/patch-notes/patch-notes-for-eve-online-citadel) for EVE Online: Citadel

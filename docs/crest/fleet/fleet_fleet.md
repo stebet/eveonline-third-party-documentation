@@ -57,3 +57,7 @@ The fleet resource provides details about a fleet.
 
 - `isFreeMove`: Should free-move be enabled in the fleet. Optional.
 - `motd`: New fleet MOTD in CCP flavoured HTML. Optional.
+
+## References
+
+- [Patch notes](https://community.eveonline.com/news/patch-notes/patch-notes-for-eve-online-citadel) for EVE Online: Citadel

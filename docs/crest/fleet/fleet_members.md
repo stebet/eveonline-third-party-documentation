@@ -172,3 +172,7 @@ The fleet member resource allows you to kick members out of the fleet and move t
   - `squadMember`
 - `newSquadID`: Squad which the character should be moved to, if applicable.
 - `newWingID`: Wing which the character should be moved to, if applicable.
+
+## References
+
+- [Patch notes](https://community.eveonline.com/news/patch-notes/patch-notes-for-eve-online-citadel) for EVE Online: Citadel
