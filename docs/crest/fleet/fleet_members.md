@@ -129,6 +129,11 @@ The fleet members collection provides details about the fleet's members, and all
 #### Notes
 
 - If a character has a CSPA charge set, it is not possible to invite them to the fleet using CREST.
+- If a character is invited with the `fleetCommander` role, neither `squadID` or `wingID` should be specified.
+- If a character is invited with the `wingCommander` role, only `wingID` should be specified.
+- If a character is invited with the `squadCommander` role, both `squadID` and `wingID` should be specified.
+- If a character is invited with the `squadMember` role, `squadID` and `wingID` should either both be specified or not specified at all. If they aren't specified, the invited character will join any squad with available positions.
+
 
 ## Fleet Member
 
@@ -174,6 +179,12 @@ The fleet member resource allows you to kick members out of the fleet and move t
   - `squadMember`
 - `newSquadID`: Squad which the character should be moved to, if applicable.
 - `newWingID`: Wing which the character should be moved to, if applicable.
+
+#### Notes
+
+- If a character is moved to the `fleetCommander` role, neither `newSquadID` or `newWingID` should be specified.
+- If a character is moved to a `wingCommander` role, only `newWingID` should be specified.
+- If a character is moved to a `squadCommander` or `squadMember` role, both `newSquadID` and `newWingID` should be specified.
 
 ## References
 
