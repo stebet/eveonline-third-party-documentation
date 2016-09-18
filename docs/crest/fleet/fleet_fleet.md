@@ -2,7 +2,10 @@
 
 The fleet resource provides details about a fleet.
 
-- **Route:** URL must be provided by user
+- **Route:** URL must be provided by user. It can be obtained in the client, under the fleet menu, by using the *Copy External Fleet Link* option. The URL will be copied to the clipboard.
+
+  ![The Copy External Fleet Link option in the fleet menu](../../_images/crest_fleet_link.png)
+
 - **Example URL:** `https://crest-tq.eveonline.com/fleets/1060711261968/`
 
 ### GET
