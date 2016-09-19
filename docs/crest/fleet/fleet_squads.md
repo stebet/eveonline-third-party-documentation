@@ -13,7 +13,7 @@ The fleet squads collection allows you to create new squads.
 
 #### Sample Request
 
-`application/vnd.ccp.eve.FleetSquadCreate-v1+json`
+**Media type:** `application/vnd.ccp.eve.FleetSquadCreate-v1+json`
 
 ```json
 {}
@@ -36,7 +36,7 @@ The fleet squad resource allows you to delete or rename a squad.
 
 #### Sample Request
 
-`application/vnd.ccp.eve.FleetSquadDelete-v1+json`
+**Media type:** `application/vnd.ccp.eve.FleetSquadDelete-v1+json`
 
 ```json
 {}
@@ -52,7 +52,7 @@ The fleet squad resource allows you to delete or rename a squad.
 
 #### Sample Request
 
-`application/vnd.ccp.eve.FleetSquadUpdate-v1+json`
+**Media type:** `application/vnd.ccp.eve.FleetSquadUpdate-v1+json`
 
 ```json
 {

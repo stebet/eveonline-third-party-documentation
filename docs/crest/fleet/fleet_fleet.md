@@ -15,7 +15,7 @@ The fleet resource provides details about a fleet. The fleet resource, along wit
 
 #### Sample Response
 
-`application/vnd.ccp.eve.Fleet-v1+json`
+**Media type:** `application/vnd.ccp.eve.Fleet-v1+json`
 
 ```json
 {
@@ -47,7 +47,7 @@ The fleet resource provides details about a fleet. The fleet resource, along wit
 
 #### Sample Request
 
-`application/vnd.ccp.eve.FleetUpdate-v1+json`
+**Media type:** `application/vnd.ccp.eve.FleetUpdate-v1+json`
 
 ```json
 {

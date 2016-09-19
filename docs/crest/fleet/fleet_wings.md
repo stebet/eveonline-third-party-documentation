@@ -14,7 +14,7 @@ The fleet wings collection provides details about the fleet's wings and squads, 
 
 #### Sample Response
 
-`application/vnd.ccp.eve.FleetWings-v1+json`
+**Media type:** `application/vnd.ccp.eve.FleetWings-v1+json`
 
 ```json
 {
@@ -62,7 +62,7 @@ The fleet wings collection provides details about the fleet's wings and squads, 
 
 #### Sample Request
 
-`application/vnd.ccp.eve.FleetWingCreate-v1+json`
+**Media type:** `application/vnd.ccp.eve.FleetWingCreate-v1+json`
 
 ```json
 {}
@@ -85,7 +85,7 @@ The fleet wing resource allows you to delete or rename a wing.
 
 #### Sample Request
 
-`application/vnd.ccp.eve.FleetWingDelete-v1+json`
+**Media type:** `application/vnd.ccp.eve.FleetWingDelete-v1+json`
 
 ```json
 {}
@@ -101,7 +101,7 @@ The fleet wing resource allows you to delete or rename a wing.
 
 #### Sample Request
 
-`application/vnd.ccp.eve.FleetWingUpdate-v1+json`
+**Media type:** `application/vnd.ccp.eve.FleetWingUpdate-v1+json`
 
 ```json
 {

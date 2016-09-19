@@ -14,7 +14,7 @@ The fleet members collection provides details about the fleet's members, and all
 
 #### Sample Response
 
-`application/vnd.ccp.eve.FleetMembers-v1+json`
+**Media type:** `application/vnd.ccp.eve.FleetMembers-v1+json`
 
 ```json
 {
@@ -101,7 +101,7 @@ The fleet members collection provides details about the fleet's members, and all
 
 #### Sample Request
 
-`application/vnd.ccp.eve.FleetMemberInvite-v1+json`
+**Media type:** `application/vnd.ccp.eve.FleetMemberInvite-v1+json`
 
 ```json
 {
@@ -148,7 +148,7 @@ The fleet member resource allows you to kick members out of the fleet and move t
 
 #### Sample Request
 
-`application/vnd.ccp.eve.FleetMemberDelete-v1+json`
+**Media type:** `application/vnd.ccp.eve.FleetMemberDelete-v1+json`
 
 ```json
 {}
@@ -160,7 +160,7 @@ The fleet member resource allows you to kick members out of the fleet and move t
 
 #### Sample Request
 
-`application/vnd.ccp.eve.FleetMemberUpdate-v1+json`
+**Media type:** `application/vnd.ccp.eve.FleetMemberUpdate-v1+json`
 
 ```json
 {
