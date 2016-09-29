@@ -1,8 +1,11 @@
 # Fleet
 
-The fleet resource provides details about a fleet.
+The fleet resource provides details about a fleet. The fleet resource, along with all its children resources, may only be accessed with an access token belonging to the fleet boss.
 
-- **Route:** URL must be provided by user
+- **Route:** URL must be provided by user. It can be obtained in the client, under the fleet menu, by using the *Copy External Fleet Link* option. The URL will be copied to the clipboard.
+
+  ![The Copy External Fleet Link option in the fleet menu](../../_images/crest_fleet_link.png)
+
 - **Example URL:** `https://crest-tq.eveonline.com/fleets/1060711261968/`
 
 ### GET
@@ -12,7 +15,7 @@ The fleet resource provides details about a fleet.
 
 #### Sample Response
 
-`application/vnd.ccp.eve.Fleet-v1+json`
+**Media type:** `application/vnd.ccp.eve.Fleet-v1+json`
 
 ```json
 {
@@ -29,7 +32,7 @@ The fleet resource provides details about a fleet.
 }
 ```
 
-#### Response Description
+#### Response Details
 
 - `isVoiceEnabled`: Is EVE Voice enabled.
 - `motd`: Fleet MOTD in CCP flavoured HTML.
@@ -44,7 +47,7 @@ The fleet resource provides details about a fleet.
 
 #### Sample Request
 
-``
+**Media type:** `application/vnd.ccp.eve.FleetUpdate-v1+json`
 
 ```json
 {
@@ -53,7 +56,11 @@ The fleet resource provides details about a fleet.
 }
 ```
 
-#### Request Description
+#### Request Details
 
 - `isFreeMove`: Should free-move be enabled in the fleet. Optional.
 - `motd`: New fleet MOTD in CCP flavoured HTML. Optional.
+
+## References
+
+- [Patch notes](https://community.eveonline.com/news/patch-notes/patch-notes-for-eve-online-citadel) for EVE Online: Citadel

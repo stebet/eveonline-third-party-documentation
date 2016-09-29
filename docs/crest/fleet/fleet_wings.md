@@ -14,7 +14,7 @@ The fleet wings collection provides details about the fleet's wings and squads, 
 
 #### Sample Response
 
-`application/vnd.ccp.eve.FleetWings-v1+json`
+**Media type:** `application/vnd.ccp.eve.FleetWings-v1+json`
 
 ```json
 {
@@ -44,14 +44,11 @@ The fleet wings collection provides details about the fleet's wings and squads, 
 }
 ```
 
-#### Response Description
+#### Response Details
 
 - `name`: Name of the wing.
 - `href`: URL of the wing resource.
-- `squadsList`: Contains details about the wing's squads.
-  - `href`: URL of the squad resource.
-  - `id`: ID of the squad.
-  - `name`: Name of the squad.
+- `squadsList`: List containing details of the wing's squads.
 - `squads`: Contains link to the wing's squad collection.
 - `id`: ID of the wing.
 
@@ -65,7 +62,7 @@ The fleet wings collection provides details about the fleet's wings and squads, 
 
 #### Sample Request
 
-`application/vnd.ccp.eve.FleetWingCreate-v1+json`
+**Media type:** `application/vnd.ccp.eve.FleetWingCreate-v1+json`
 
 ```json
 {}
@@ -88,7 +85,7 @@ The fleet wing resource allows you to delete or rename a wing.
 
 #### Sample Request
 
-`application/vnd.ccp.eve.FleetWingDelete-v1+json`
+**Media type:** `application/vnd.ccp.eve.FleetWingDelete-v1+json`
 
 ```json
 {}
@@ -104,7 +101,7 @@ The fleet wing resource allows you to delete or rename a wing.
 
 #### Sample Request
 
-`application/vnd.ccp.eve.FleetWingUpdate-v1+json`
+**Media type:** `application/vnd.ccp.eve.FleetWingUpdate-v1+json`
 
 ```json
 {
@@ -112,6 +109,10 @@ The fleet wing resource allows you to delete or rename a wing.
 }
 ```
 
-#### Request Description
+#### Request Details
 
 - `name`: New name of the wing. May not be longer than 10 characters.
+
+## References
+
+- [Patch notes](https://community.eveonline.com/news/patch-notes/patch-notes-for-eve-online-citadel) for EVE Online: Citadel

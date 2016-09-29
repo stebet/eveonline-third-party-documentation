@@ -2,7 +2,7 @@
 
 ## Fleet Squads
 
-The fleet squads collection lets allows you to create new squads.
+The fleet squads collection allows you to create new squads.
 
 - **Route:** [Fleet](fleet_fleet.md) → `wings.href` → `items[].squads.href`
 - **Example URL:** `https://crest-tq.eveonline.com/fleets/1060711261968/wings/2073711261968/squads/`
@@ -13,7 +13,7 @@ The fleet squads collection lets allows you to create new squads.
 
 #### Sample Request
 
-`application/vnd.ccp.eve.FleetSquadCreate-v1+json`
+**Media type:** `application/vnd.ccp.eve.FleetSquadCreate-v1+json`
 
 ```json
 {}
@@ -36,7 +36,7 @@ The fleet squad resource allows you to delete or rename a squad.
 
 #### Sample Request
 
-`application/vnd.ccp.eve.FleetSquadDelete-v1+json`
+**Media type:** `application/vnd.ccp.eve.FleetSquadDelete-v1+json`
 
 ```json
 {}
@@ -52,7 +52,7 @@ The fleet squad resource allows you to delete or rename a squad.
 
 #### Sample Request
 
-`application/vnd.ccp.eve.FleetSquadUpdate-v1+json`
+**Media type:** `application/vnd.ccp.eve.FleetSquadUpdate-v1+json`
 
 ```json
 {
@@ -60,6 +60,10 @@ The fleet squad resource allows you to delete or rename a squad.
 }
 ```
 
-#### Request Description
+#### Request Details
 
 - `name`: New name of the squad. May not be longer than 10 characters.
+
+## References
+
+- [Patch notes](https://community.eveonline.com/news/patch-notes/patch-notes-for-eve-online-citadel) for EVE Online: Citadel
