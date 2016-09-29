@@ -2,6 +2,7 @@
 
 * [Introduction](intro.md)
 * [Authentication and Scopes](authentication.md)
+* [Rate Limits](rate_limits.md)
 * [Versioning](versioning.md)
 * [Numeric Strings](numeric_strings.md)
 

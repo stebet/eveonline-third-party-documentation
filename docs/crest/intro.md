@@ -12,10 +12,3 @@ CREST is designed to be a properly RESTful API with good support for versioning 
 * To dynamically acquire possible authed endpoints, you should make an authed HTTP GET request to the `decode` endpoint.
 
 For more details on walking through endpoints, see the appropriate section of these docs.
-
-## Other Information
-### Rate Limits
-#### Public CREST
-- General Rate Limit: 150 requests per second
-- Burst Size: 400
-- Concurrent Connections: 20
