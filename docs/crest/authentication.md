@@ -3,7 +3,7 @@ When designing your application you will need to decide what information you req
 
 Currently most data does not require authentication. Anything that is not public will have a scope attached. In order to access these endpoints, your app must have been set up with that scope enabled on the dev site and you must have requested that scope when getting your access token from the SSO.
 
-Once you have decided what scopes you require for your app, you will need to follow the instructions in the [SSO section](../sso/intro) to register your app on the dev site and then to get an access token.
+Once you have decided what scopes you require for your app, you will need to follow the instructions in the [SSO section](../sso/intro.md) to register your app on the dev site and then to get an access token.
 
 ## Scopes
 When designing your application you will need to decide what information you require from CREST and if any of that information requires authentication.
