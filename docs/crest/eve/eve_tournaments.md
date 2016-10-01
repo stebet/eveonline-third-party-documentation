@@ -194,6 +194,64 @@ TournamentSeriesCollection-v1+json
   "totalCount":27
 }
 ```
+* If a series has not completed yet, the `isDecided` member contained within will determine if a particular team has information present
+* the `structure` member has information on where a team is headed based on current/previous series results
+```json
+{  
+  "totalCount_str":"126",
+  "items":[
+    {  
+       "redTeam":{  
+          "isDecided":false,
+          "isBye":false
+       },
+       "matchesWon":{  
+          "blueTeam_str":"0",
+          "redTeam":0,
+          "redTeam_str":"0",
+          "blueTeam":0
+       },
+       "self":{  
+          "href":"https://crest-tq.eveonline.com/tournaments/15/series/32/"
+       },
+       "winner":{  
+          "isDecided":false,
+          "isBye":false
+       },
+       "loser":{  
+          "isDecided":false,
+          "isBye":false
+       },
+       "blueTeam":{  
+          "isDecided":false,
+          "isBye":false
+       },
+       "structure":{  
+          "outgoingLoser":{  
+             "href":"https://crest-tq.eveonline.com/tournaments/15/series/66/"
+          },
+          "outgoingWinner":{  
+             "href":"https://crest-tq.eveonline.com/tournaments/15/series/80/"
+          },
+          "incomingRed":{  
+             "linkType":"seriesWinner",
+             "href":"https://crest-tq.eveonline.com/tournaments/15/series/0/"
+          },
+          "incomingBlue":{  
+             "linkType":"seriesWinner",
+             "href":"https://crest-tq.eveonline.com/tournaments/15/series/1/"
+          }
+        }
+      },
+      { "..." },
+      { "..." },
+      { "..." }
+   ],
+   "pageCount":1,
+   "pageCount_str":"1",
+   "totalCount":126
+}
+```
 
 ## Teams
 ### Route
