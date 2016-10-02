@@ -15,7 +15,7 @@ There is a contributors file, as well as more info on contributing to the docume
 
 * [Guidelines and References](reference/index.md)
 * [Formulas](formulas/index.md)
-* [Single Sign-On (SS0)](sso/index.md)
+* [Single Sign-On (SSO)](sso/index.md)
 * [CREST](crest/index.md)
 * [XML API](xmlapi/index.md)
 * [Static Data Export](sde/index.md)
