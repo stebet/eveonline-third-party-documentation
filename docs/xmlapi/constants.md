@@ -205,6 +205,14 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td>Tags the market order commission fee for a market transaction.  The ownerName2 field indicates to whom the fee was paid.</td>
         </tr>
         <tr>
+            <td align="right">50</td>
+            <td>Alliance Maintenance Fee</td>
+            <td>Alliance Name</td>
+            <td>Alliance ID</td>
+            <td></td>
+            <td>Fee paid to CONCORD to maintain an Alliance.</td>
+        </tr>
+        <tr>
             <td align="right">56</td>
             <td>Manufacturing</td>
             <td>
@@ -238,6 +246,19 @@ They define hangars or slots where an item may reside. It should be noted that i
             </td>
             <td>NPC ID:quantity killed[,id:qty[,...]]</td>
             <td>Arg1ID provides the solar system ID where the bounty was acquired.  For each type of NPC killed, its typeID is followed by a colon and the quantity killed. These pairs are seperated by commas, and if there are too many (more than about 60 characters' worth) the list is ended with a literal ",..." to indicate that more have been left off the list.</td>
+        </tr>
+        <tr>
+            <td align="right">96</td>
+            <td>Customs Office Import Duty</td>
+            <td>Planet name</td>
+            <td>
+                Planet ID
+                <sup>
+                <a href="../sde/sqlite/sqlite_mapDenormalize.html" title="mapDenormalize.itemID">[1]</a>
+                </sup>
+            </td>
+            <td>"Import Duty for " + planet name</td>
+            <td>Customs office import duty for the named planet.  The duty was paid to the entity with ownerID2.</td>
         </tr>
         <tr>
             <td align="right">97</td>
