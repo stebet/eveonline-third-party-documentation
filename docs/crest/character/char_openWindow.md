@@ -84,9 +84,9 @@ Body format:
 {
 
       "subject": "Hello",
-      "body": "I would like to negotiate BPO prices with you."
+      "body": "I would like to negotiate BPO prices with you.",
       "recipients": [{"id": 1536904870}]
 }
 ```
 
-There is no response, if the action is successful the mail window will open.  The body parameter accepts Eve's basic HTML markdown formatting.
+There is no response, if the action is successful the mail window will open.  The body parameter accepts Eve's basic HTML markdown formatting.  Multiple recipients can be present in the array in the above object formatting.
