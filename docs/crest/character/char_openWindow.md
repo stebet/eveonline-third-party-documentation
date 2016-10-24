@@ -69,3 +69,24 @@ Body format:
 ```
 
 There is no response, if the action is successful the info window will open.
+
+### Route
+``/characters/<characterID:characterIdType>/ui/openwindow/newmail/``
+
+### POST
+* Scope: `remoteClientUI`
+
+User has to be online for window to open, response is empty if offline.
+
+Body format:
+
+```json
+{
+
+      "subject": "Hello",
+      "body": "I would like to negotiate BPO prices with you.",
+      "recipients": [{"id": 1536904870}]
+}
+```
+
+There is no response, if the action is successful the mail window will open.  The body parameter accepts Eve's basic HTML markdown formatting.  Multiple recipients can be present in the array in the above object formatting.
