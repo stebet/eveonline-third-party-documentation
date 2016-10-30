@@ -232,7 +232,7 @@ Retrieve unfinished corporation industry jobs.
         <tr>
             <td></td>
             <td>productTypeName</td>
-            <td><strong>int</strong></td>
+            <td><strong>string</strong></td>
             <td>Type name of product (manufactured, copied or invented).</td>
         </tr>
         <tr>
