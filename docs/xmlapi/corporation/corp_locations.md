@@ -28,3 +28,40 @@ Returns location of an item or character.
   </rowset>
 </result>
 ```
+
+### Result Data
+
+<table border="1">
+    <tbody>
+        <tr>
+            <th>Name</th>
+            <th>Data type</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>itemID</td>
+            <td>long</td>
+            <td>ID of the item</td>
+        </tr>
+        <tr>
+            <td>itemName</td>
+            <td>string</td>
+            <td>Name of the item</td>
+        </tr>
+        <tr>
+            <td>x</td>
+            <td>long</td>
+            <td>X coordinate</td>
+        </tr>
+        <tr>
+            <td>y</td>
+            <td>long</td>
+            <td>Y coordinate</td>
+        </tr>
+        <tr>
+            <td>z</td>
+            <td>long</td>
+            <td>Z coordinate</td>
+        </tr>
+    </tbody>
+</table>
