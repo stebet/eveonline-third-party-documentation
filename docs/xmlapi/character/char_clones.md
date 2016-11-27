@@ -181,6 +181,24 @@ Retrieve clones and basic attributes portion of character sheet.
             <td>Willpower attribute.</td>
         </tr>
         <tr>
+            <td>implants</td>
+            <td><strong>rowset</strong></td>
+            <td></td>
+            <td>Rowset containing one row per implant.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>typeID</td>
+            <td><strong>int</strong></td>
+            <td>Type ID of the implant.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>typeName</td>
+            <td><strong>string</strong></td>
+            <td>Name of the implant.</td>
+        </tr>
+        <tr>
             <td>jumpClones</td>
             <td><strong>rowset</strong></td>
             <td></td>
