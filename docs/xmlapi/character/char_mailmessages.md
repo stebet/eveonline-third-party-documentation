@@ -68,7 +68,7 @@ Returns the header of eve mail messages sent to the character.
         </tr>
         <tr>
             <td>toCorpOrAllianceID</td>
-            <td>string</td>
+            <td>int</td>
             <td>The ID of a corporation/alliance that the message was sent to.</td>
         </tr>
         <tr>
