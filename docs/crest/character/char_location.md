@@ -8,7 +8,7 @@ The characters location resource allows an application to read a character's loc
 * Cache: 5 seconds
 * Scope: `characterLocationRead`
 
-User has to be online to see his location, if he is offline than response is empty.
+User has to be online to see his location, if he is offline then the response is empty.
 
 ```json
 {
