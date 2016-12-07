@@ -1,7 +1,7 @@
 # Non-Browser Apps
 
 The OAuth2 workflow for non-browser applications is a more complicated process as there is no easy way to capture the
- post-auth redirect. Below you will a number of common methods for capturing this redirect, each with its own pros and cons.
+ post-auth redirect. Below you will find a number of common methods for capturing this redirect, each with its own pros and cons.
 
 Non-Browser applications also differ in that there is no way to secure your secret key if you wish to use the
  authorization code workflow. Some applications (Such as Pyfa) get around this by providing an option for users to
