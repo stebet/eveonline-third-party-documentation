@@ -7,6 +7,24 @@ As more formats were introduced, containing extra data, these routines were expa
 
 As the various methods for conversion result in differing versions, with different layouts of data, conversions will be listed by the primary maintainer.
 
+## [EVE SDE Database Builder - by Zifrian](https://forums.eveonline.com/default.aspx?g=posts&t=500859)
+EVE SDE Database Builder is a Windows app that lets users import the SDE 6 different database types. Additionally, users can customize the import by language type and selecting specific SDE yaml files to import or ignore.
+
+Key features:
+* Imports all YAML files in about 30 minutes (the universe files take about 23 minutes alone).
+* Allows the selection of specific YAML files so users don’t have to import or build the entire database each time.
+* Imports the SDE YAML files into Microsoft Access, SQLite, and CSV files with the option to save CSV to SSV – Semi-colon separated values with European decimal format (10.000,00) for use in Excel by non-US decimal format users.
+* Imports the SDE YAML files into local servers for Microsoft SQL Server, PostgreSQL, and MySQL. To use these import types, you need to have a local server installed on your machine to connect to.
+* Settings to import tables with translated fields for English, French, German, Japanese, Chinese, and Russian. When a field is translatable, the program will import the selected language.
+* Threaded processing allows for increasing import times. Users can select to use maximum threads (no limit) or a number of 1-24 threads depending on their system. Users can set the threads in the File menu.
+* Contains an updater function to update the program when changes are uploaded to GitHub. 
+
+Main links for the application:
+* [Screenshot of the program](http://i.imgur.com/iQIyUrw.png)
+* [Binaries for installing the program](https://github.com/EVEIPH/EVE-SDE-Database-Builder/raw/master/Latest%20Files/EVE%20SDE%20Database%20Builder%20Install.zip)
+* [Github for the code](https://github.com/EVEIPH/EVE-SDE-Database-Builder)
+* [SQL Schema, which is updated to new data and changes CCP has added](https://github.com/EVEIPH/EVE-SDE-Database-Builder/blob/master/Latest%20Files/EVESDEDB_Schema.sql)
+
 ## [Desmont McCallock](https://forums.eveonline.com/profile/Desmont%20McCallock)
 
 [Conversion Tool](https://forums.eveonline.com/default.aspx?g=posts&m=6168357)
