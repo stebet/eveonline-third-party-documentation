@@ -7,6 +7,15 @@ As more formats were introduced, containing extra data, these routines were expa
 
 As the various methods for conversion result in differing versions, with different layouts of data, conversions will be listed by the primary maintainer.
 
+## [EVE SDE Database Builder - by Zifrian](https://forums.eveonline.com/default.aspx?g=posts&t=500859)
+EVE SDE Database Builder is a Windows application that lets users import the SDE yaml files into MS Access, MS SQL Server, Comma Separated Values, Semi-colon Separated Values, MySQL, PostgreSQL, and SQLite. Additionally, users can customize the import by language type and selecting specific SDE yaml files to import or ignore.
+
+Main links for the application:
+* [Screenshot of the program](http://i.imgur.com/iQIyUrw.png)
+* [Binaries for installing the program](https://github.com/EVEIPH/EVE-SDE-Database-Builder/raw/master/Latest%20Files/EVE%20SDE%20Database%20Builder%20Install.zip)
+* [SQL Schema used](https://github.com/EVEIPH/EVE-SDE-Database-Builder/blob/master/Latest%20Files/EVESDEDB_Schema.sql)
+* [Github for the code](https://github.com/EVEIPH/EVE-SDE-Database-Builder)
+
 ## [Desmont McCallock](https://forums.eveonline.com/profile/Desmont%20McCallock)
 
 [Conversion Tool](https://forums.eveonline.com/default.aspx?g=posts&m=6168357)
