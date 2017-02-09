@@ -652,6 +652,10 @@ Retrieve character notification headers.
             <td>BattlePunishFriendlyFire ?</td>
         </tr>
         <tr>
+            <td align="right">134</td>
+            <td>BountyESSTaken ?</td>
+        </tr>
+        <tr>
             <td align="right">135</td>
             <td>BountyESSShared ?</td>
         </tr>
@@ -710,10 +714,6 @@ Retrieve character notification headers.
         <tr>
             <td align="right">164</td>
             <td>IHubDestroyedByBillFailure ?</td>
-        </tr>
-        <tr>
-            <td align="right">134</td>
-            <td>BountyESSTaken ?</td>
         </tr>
         <tr>
             <td align="right">166</td>
