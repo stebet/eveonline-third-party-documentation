@@ -121,7 +121,7 @@ These tables list the SSO scopes which allow access to the XML API and the acces
     <tr><td>corporationKillsRead</td><td>256</td></tr>
     <tr><td>corporationMembersRead</td><td>512 | 1024 | 2048 | 4194304 | 33554432</td></tr>
     <tr><td>corporationMarketOrdersRead</td><td>4096</td></tr>
-    <tr><td>corporationStructuresRead</td><td>16384 | 32768 | 131072</td></tr>
+    <tr><td>corporationStructuresRead</td><td>16384 | 32768 | 524288 | 131072</td></tr>
     <tr><td>corporationShareholdersRead</td><td>65536</td></tr>
     <tr><td>corporationContractsRead</td><td>8388608</td></tr>
     <tr><td>corporationBookmarksRead</td><td>67108864</td></tr>
