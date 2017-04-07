@@ -162,8 +162,8 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">13</td>
             <td>Office Rental Fee</td>
-            <td></td>
-            <td></td>
+            <td>EVE System</td>
+            <td>1</td>
             <td></td>
             <td></td>
         </tr>
@@ -191,16 +191,16 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">33</td>
             <td>Mission Reward</td>
-            <td></td>
-            <td></td>
+            <td>Player name</td>
+            <td>Player character ID</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td align="right">34</td>
             <td>Mission Reward Bonus</td>
-            <td></td>
-            <td></td>
+            <td>Player name</td>
+            <td>Player character ID</td>
             <td></td>
             <td></td>
         </tr>
@@ -223,8 +223,8 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">40</td>
             <td>Logo Change Fee</td>
-            <td></td>
-            <td></td>
+            <td>Corporation Name</td>
+            <td>Corporation ID</td>
             <td></td>
             <td></td>
         </tr>
@@ -232,7 +232,7 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td align="right">42</td>
             <td>Market Escrow</td>
             <td></td>
-            <td></td>
+            <td>0</td>
             <td></td>
             <td></td>
         </tr>
@@ -256,7 +256,7 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td align="right">54</td>
             <td>Sales Tax</td>
             <td></td>
-            <td></td>
+            <td>0</td>
             <td></td>
             <td></td>
         </tr>
@@ -298,16 +298,16 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">87</td>
             <td>Medal Creation Fee</td>
-            <td></td>
-            <td></td>
+            <td>Name of the player creating the medal</td>
+            <td>Character ID of the player creating the medal</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td align="right">88</td>
             <td>Medal Issuing Fee</td>
-            <td></td>
-            <td></td>
+            <td>Name of the player issuing the medal</td>
+            <td>Character ID of the player issuing the medal</td>
             <td></td>
             <td></td>
         </tr>
@@ -341,15 +341,15 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td align="right">99</td>
             <td>Corporate Reward Payout</td>
             <td></td>
-            <td></td>
+            <td>0</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td align="right">125</td>
             <td>Project Discovery Reward</td>
-            <td></td>
-            <td></td>
+            <td>EVE System</td>
+            <td>1</td>
             <td></td>
             <td></td>
         </tr>
@@ -357,15 +357,15 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td align="right">127</td>
             <td>Reprocessing Fee</td>
             <td></td>
-            <td></td>
+            <td>0</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td align="right">128</td>
             <td>Jump Clone Activation Fee</td>
-            <td></td>
-            <td></td>
+            <td>EVE System</td>
+            <td>1</td>
             <td></td>
             <td></td>
         </tr>
