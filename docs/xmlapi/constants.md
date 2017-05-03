@@ -160,6 +160,14 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td>Player donation with text entered by the donator appearing in the "reason" field.</td>
         </tr>
         <tr>
+            <td align="right">13</td>
+            <td>Office Rental Fee</td>
+            <td>EVE System</td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
             <td align="right">17</td>
             <td>Bounty Prize (historical)</td>
             <td>NPC Name</td>
@@ -181,6 +189,22 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td>See <a href="../sde/yaml/yaml_typeIDs.html">Inventory Types file</a>.</td>
         </tr>
         <tr>
+            <td align="right">33</td>
+            <td>Mission Reward</td>
+            <td>Player name</td>
+            <td>Player character ID</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td align="right">34</td>
+            <td>Mission Reward Bonus</td>
+            <td>Player name</td>
+            <td>Player character ID</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
             <td align="right">35</td>
             <td>CONCORD Spam Prevention Act (CSPA)</td>
             <td>Player name</td>
@@ -195,6 +219,22 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td>Player character ID that performed withdrawal</td>
             <td>Player entered text</td>
             <td>Corp account withdrawal with text entered by the withdrawing player appearing in the "reason" field.</td>
+        </tr>
+        <tr>
+            <td align="right">40</td>
+            <td>Logo Change Fee</td>
+            <td>Corporation Name</td>
+            <td>Corporation ID</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td align="right">42</td>
+            <td>Market Escrow</td>
+            <td></td>
+            <td>0</td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td align="right">46</td>
@@ -219,6 +259,14 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td>1</td>
             <td></td>
             <td>Fee paid for installation of Jump Clone (Maybe only on Citadels). The ownerName2 field indicates to whom the fee was paid.</td>
+        </tr>
+        <tr>
+            <td align="right">54</td>
+            <td>Sales Tax</td>
+            <td></td>
+            <td>0</td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td align="right">56</td>
@@ -256,6 +304,22 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td>Arg1ID provides the solar system ID where the bounty was acquired.  For each type of NPC killed, its typeID is followed by a colon and the quantity killed. These pairs are seperated by commas, and if there are too many (more than about 60 characters' worth) the list is ended with a literal ",..." to indicate that more have been left off the list.</td>
         </tr>
         <tr>
+            <td align="right">87</td>
+            <td>Medal Creation Fee</td>
+            <td>Name of the player creating the medal</td>
+            <td>Character ID of the player creating the medal</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td align="right">88</td>
+            <td>Medal Issuing Fee</td>
+            <td>Name of the player issuing the medal</td>
+            <td>Character ID of the player issuing the medal</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
             <td align="right">96</td>
             <td>Customs Office Import Duty</td>
             <td>Planet name</td>
@@ -281,6 +345,14 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td>"Export Duty for " + planet name</td>
             <td>Customs office export duty for the named planet.  The duty was paid to the entity with ownerID2.</td>
         </tr>
+        <tr>
+            <td align="right">99</td>
+            <td>Corporate Reward Payout</td>
+            <td></td>
+            <td>0</td>
+            <td></td>
+            <td></td>
+        </tr>
 	<tr>
             <td align="right">120</td>
             <td>Industry Facility Tax</td>
@@ -288,6 +360,14 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td>Citadel ID?</td>
             <td></td>
             <td>Corporation tax for using industry facilities</td>
+        </tr>
+        <tr>
+            <td align="right">125</td>
+            <td>Project Discovery Reward</td>
+            <td>EVE System</td>
+            <td>1</td>
+            <td></td>
+            <td></td>
         </tr>
 	<tr>
             <td align="right">127</td>
@@ -303,7 +383,7 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td>EVE System</td>
             <td>1</td>
             <td></td>
-            <td>Corporation tax for using cloning facilities</td>
+            <td></td>
         </tr>
     </tbody>
 </table>
