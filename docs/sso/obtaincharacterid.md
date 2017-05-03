@@ -1,7 +1,7 @@
 # Obtaining Character ID
 Once you have obtained an access token, you can ask the login server for some details of the character that was used to authenticate.
 
-This step is entirely optional, as all you need to authenticate to CREST is the access token and these details can also be obtained from CREST by going CREST root -> TokenDecode -> Character.
+This step is entirely optional, as all you need to authenticate to CREST is the access token. These details can also be obtained from CREST by going `https://{CREST root}/decode/`, using bearer authorization.
 
 To get the character ID from the SSO server make an HTTP GET request to https://login.eveonline.com/oauth/verify that looks like this:
 ```http
