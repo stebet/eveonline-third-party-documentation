@@ -242,7 +242,7 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td>EVE System</td>
             <td>1</td>
             <td></td>
-            <td>Tags the market order commission fee for a market transaction.  The ownerName2 field indicates to whom the fee was paid.</td>
+            <td>Tags the market order commission fee for a market transaction. The ownerName2 field indicates to whom the fee was paid.</td>
         </tr>
         <tr>
             <td align="right">50</td>
@@ -251,6 +251,14 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td>Alliance ID</td>
             <td></td>
             <td>Fee paid to CONCORD to maintain an Alliance.</td>
+        </tr>
+	<tr>
+            <td align="right">55</td>
+            <td>Jump Clone Installation Fee</td>
+            <td>EVE System</td>
+            <td>1</td>
+            <td></td>
+            <td>Fee paid for installation of Jump Clone (Maybe only on Citadels). The ownerName2 field indicates to whom the fee was paid.</td>
         </tr>
         <tr>
             <td align="right">54</td>
@@ -345,6 +353,14 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td></td>
             <td></td>
         </tr>
+	<tr>
+            <td align="right">120</td>
+            <td>Industry Facility Tax</td>
+            <td></td>
+            <td>Citadel ID?</td>
+            <td></td>
+            <td>Corporation tax for using industry facilities</td>
+        </tr>
         <tr>
             <td align="right">125</td>
             <td>Project Discovery Reward</td>
@@ -353,15 +369,15 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td></td>
             <td></td>
         </tr>
-        <tr>
+	<tr>
             <td align="right">127</td>
             <td>Reprocessing Fee</td>
             <td></td>
-            <td>0</td>
             <td></td>
             <td></td>
+            <td>Corporation tax for using reprocessing facilities</td>
         </tr>
-        <tr>
+	<tr>
             <td align="right">128</td>
             <td>Jump Clone Activation Fee</td>
             <td>EVE System</td>
