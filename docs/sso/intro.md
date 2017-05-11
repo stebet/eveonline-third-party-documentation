@@ -10,7 +10,7 @@ To use the SSO in your app, you must first register it at [the developers site](
 You are required to supply the following:
 - Name: Name of the application, will be displayed to the users when asked to authorize your app.
 - Description: Description of the application, will be listed under your app in [Third Party Applications](https://community.eveonline.com/support/third-party-applications/).
-- Connection type: Can be CREST Access or Authentication Only. If CREST Access is selected, you will also need to select the scopes your app will use.
+- Connection type: Can be API Access or Authentication Only. If API Access is selected, you will also need to select the scopes your app will use.
 - Callback URL: Callback URL, which is the only location the login server will redirect back to after the user has authorized the login (See [Authentication flow](authentication.md) for details.)
 
 ### Errors

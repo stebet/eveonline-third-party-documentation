@@ -1,7 +1,8 @@
 [![Documentation Status](https://readthedocs.org/projects/eveonline-third-party-documentation/badge/?version=latest)](https://eveonline-third-party-documentation.readthedocs.io/en/latest/)
 
 # eveonline-third-party-documentation
-Documentation for EVE Online third-party developers. This covers things like the XML API, CREST, the Static Data Export (SDE), and SSO. You can read the latest version of the documentation [here](https://eveonline-third-party-documentation.readthedocs.io/en/latest/).
+Documentation for EVE Online third-party developers. This covers things like ESI, Static Data Export (SDE), SSO, XML API (deprecated), and CREST (deprecated). You can read the
+latest version of the documentation [here](https://eveonline-third-party-documentation.readthedocs.io/en/latest/).
 Read the instructions below if you'd like to contribute.
 
 # Developing

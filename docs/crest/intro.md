@@ -1,3 +1,7 @@
+# Deprecation Notice
+This API will be shut down May 8th, 2018 or earlier if metrics signal a trivial level of usage, please use [ESI](../esi/index.md) instead.
+The following is kept for historical purposes.
+
 # Introduction
 CREST is the new RESTfull API, destined to replace the older XML API. Currently there is far less data available on CREST, so the XML API is not going away for a long time. The main selling points of CREST include:
 

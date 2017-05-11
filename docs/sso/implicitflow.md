@@ -2,8 +2,8 @@
 
 From the perspective of OAuth2 based authentication, browser applications
  can be broken into two main categories based on where they communicate with
- the protected resources (In the case of EVE SSO, these protected resources
- are CREST and the XML API). These categories can be broadly classed as Client
+ the protected resources (In the case of EVE SSO, the protected resource
+ is [ESI](../esi/index.md)). These categories can be broadly classed as Client
  side and Server side.
 
 Client Side applications will communicate with the protected resource from
