@@ -55,6 +55,9 @@ There are no rate limits in place, ESI relies on caching more than rate limiting
 
 ESI returns standard caching headers if the data is cached. Applications should notice and make use of these headers (expires and last-modified) on routes where they are provided.
 
+ESI is a shared resource and projects should be optimized to have minimum consumption of unnecessary resources. In the case of long running
+services, consistent amounts of slow traffic are preferred to spiky, high throughput traffic.
+
 ## Important Online Resources
 The following is a list of important online resources for ESI development.
 
