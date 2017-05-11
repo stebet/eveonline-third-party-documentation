@@ -1,7 +1,7 @@
 # Developer License
-All use of Authenticated CREST is subject to the terms of the [Developer License](https://developers.eveonline.com/resource/license-agreement).
+All use of authenticated ESI is subject to the terms of the [Developer License](https://developers.eveonline.com/resource/license-agreement).
 
-To use Authenticated CREST, you will need to enable your account on the [developer site](https://developers.eveonline.com). You must have paid for eve at some point in the past and you will need to agree to the Developer License.
+To use authenticated ESI, you will need to enable your account on the [developer site](https://developers.eveonline.com). You must have paid for eve at some point in the past and you will need to agree to the Developer License.
 
 ## Licensing FAQs
 1) Can I charge people real life money for my application?

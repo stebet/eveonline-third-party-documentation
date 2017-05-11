@@ -1,4 +1,6 @@
 # XML API
+**This API will be shut down May 8th, 2018 or earlier if metrics signal a trivial level of usage**.
+Please use [ESI](../esi/index.md) instead.
 
 - [Introduction](intro.md)
 - [Authentication](authentication.md)
@@ -12,7 +14,7 @@
 ### Account
 
 - [AccountStatus](account/account_accountstatus.md)
-- [APIKeyInfo](account/account_apikeyinfo.md) 
+- [APIKeyInfo](account/account_apikeyinfo.md)
 - [Characters](account/account_characters.md)
 
 ### API

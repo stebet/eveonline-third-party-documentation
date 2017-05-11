@@ -1,3 +1,7 @@
+# Deprecation Notice
+This API will be shut down May 8th, 2018 or earlier if metrics signal a trivial level of usage, please use [ESI](../esi/index.md) instead.
+The following is kept for historical purposes.
+
 # Introduction
 The EVE XML API is an HTTP **read only** API to the EVE Universe. The API has both publicly accessible information and private character/corporation information. Using the API does not require any kind of registration, simply point your HTTP requests to the correct locations, or use one of the many third-party libraries, and away you go.
 

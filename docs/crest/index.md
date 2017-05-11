@@ -1,4 +1,6 @@
 # CREST
+**This API is deprecated and will be shut down May 8th, 2018 or earlier if metrics signal a trivial level of usage**.
+Please use [ESI](../esi/index.md).
 
 - [Introduction](intro.md)
 - [Authentication and Scopes](authentication.md)
