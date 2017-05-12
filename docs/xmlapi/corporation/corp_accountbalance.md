@@ -15,7 +15,7 @@ Retrieve corporation account balances.
             <tr>
                 <td>characterID</td>
                 <td><strong>long</strong></td>
-                <td>ID of accessing character (must have junior accountant access or higher in the character's corporation)</td>
+                <td>ID of accessing character (must have junior accountant access or higher in the character's corporation). Only used with legacy API keys.</td>
             </tr>
         </tbody>
     </table>
