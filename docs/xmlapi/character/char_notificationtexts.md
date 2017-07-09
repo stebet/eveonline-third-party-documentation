@@ -121,4 +121,4 @@ Retrieve character notification bodies.
 
 * Notification headers must be requested first before the corresponding notification texts can be retrieved.
 * Notification texts typically report a "cached until" time of ten years from the current time.  It's not clear whether texts are really cached for this long.
-* Some notification types have structured data in the corresponding notification text.  See <a href="../../xmlapi/constants.html/#notification-type">Notification Types</a> for a description of this data.
+* Some notification types have structured data in the corresponding notification text.  See <a href="../../xmlapi/constants.html#notification-type">Notification Types</a> for a description of this data.
