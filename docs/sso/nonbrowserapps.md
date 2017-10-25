@@ -62,7 +62,7 @@ When you create your application in the EVE Developer Console the `Callback URL`
  `http://localhost:$port/`, where `$port` is the port you have chosen to use.
 
 When you initiate the login process, you need to start your local http server on your chosen port and have it wait
- to receive a request. You then launch a browser process ot the authorisation endpoint as per the standard workflow.
+ to receive a request. You then launch a browser process to the authorisation endpoint as per the standard workflow.
 
 When the SSO authentication process has finished the user will be redirected to your local web server, where you can
  parse the request url for the authentication response.
