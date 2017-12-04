@@ -6,3 +6,4 @@
 * [SSO For Browser Apps](implicitflow.md)
 * [Non-Browser Apps](nonbrowserapps.md)
 * [Obtaining Character ID](obtaincharacterid.md)
+* [Token Revocation](tokenrevocation.md)
