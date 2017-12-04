@@ -18,7 +18,9 @@ Host: login.eveonline.com
 grant_type=refresh_token&refresh_token=gEy...fM0
 ```
 
-Alternatively, the body of the request may use JSON:
+Currently, it also works to post the body of the request as JSON:
+>Please note that using JSON is NOT recommended as it is not in accordance with the spec and may break at any moment. You have been warned!
+>-CCP Ghostrider
 ```http
 POST https://login.eveonline.com/oauth/token HTTP/1.1
 
@@ -31,6 +33,8 @@ Host: login.eveonline.com
   "refresh_token":"gEy...fM0"
 }
 ```
+
+
 
 The response should contain details about the new access token for that user. Example:
 ```json
