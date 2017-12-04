@@ -19,8 +19,9 @@ grant_type=refresh_token&refresh_token=gEy...fM0
 ```
 
 Currently, it also works to post the body of the request as JSON:
->Please note that using JSON is NOT recommended as it is not in accordance with the spec and may break at any moment. You have been warned!
->-CCP Ghostrider
+> Please note that using JSON is NOT recommended as it is not in accordance with the spec and may break at any moment. You have been warned!
+> -CCP Ghostrider
+
 ```http
 POST https://login.eveonline.com/oauth/token HTTP/1.1
 
