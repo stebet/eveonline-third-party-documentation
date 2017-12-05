@@ -35,4 +35,4 @@ Host: login.eveonline.com
 }
 ```
 
-The server replies with a HTTP 200 if the revocation has been successfull or if the client submitted an invalid token.
+The server replies with a HTTP 200 if the revocation has been successful or if the client submitted an invalid token.
