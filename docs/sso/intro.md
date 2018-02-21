@@ -24,5 +24,10 @@ All instances of https://login.eveonline.com can be swapped for https://sisilogi
 ### Login Images
 When creating a button to direct users to login to your site or application with the EVE SSO please use one of the following images for the button. This helps create consistency for EVE players and when they view your site or application will more easily be able to quickly identify that it supports the EVE SSO.
 
-![EVE SSO Login Buttons Large White](https://web.ccpgamescdn.com/eveonlineassets/developers/eve-sso-login-white-large.png) ![EVE SSO Login Buttons Large Black](https://web.ccpgamescdn.com/eveonlineassets/developers/eve-sso-login-black-large.png)
-![EVE SSO Login Buttons Small White](https://web.ccpgamescdn.com/eveonlineassets/developers/eve-sso-login-white-small.png) ![EVE SSO Login Buttons Small Black](https://web.ccpgamescdn.com/eveonlineassets/developers/eve-sso-login-black-small.png)
+![EVE SSO Login Buttons Large White](https://web.ccpgamescdn.com/eveonlineassets/developers/eve-sso-login-white-large.png)
+
+![EVE SSO Login Buttons Large Black](https://web.ccpgamescdn.com/eveonlineassets/developers/eve-sso-login-black-large.png)
+
+![EVE SSO Login Buttons Small White](https://web.ccpgamescdn.com/eveonlineassets/developers/eve-sso-login-white-small.png)
+
+![EVE SSO Login Buttons Small Black](https://web.ccpgamescdn.com/eveonlineassets/developers/eve-sso-login-black-small.png)
