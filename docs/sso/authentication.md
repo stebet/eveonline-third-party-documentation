@@ -25,7 +25,7 @@ Example URL: `https://3rdpartysite.com/callback?code=gEyuYF_rf...ofM0&state=uniq
 ## Verify the authorization code
 At this point your website has the authorization code. The only thing the authorization code is good for is to obtain an access token.
 
-It is also important to note that the authorization code is single use only.
+It is also important to note that the authorization code is single use only, and has a lifetime of only five minutes.
 
 You need to make a POST request to `https://login.eveonline.com/oauth/token` to exchange the authorization code for an access token. Example request:
 ```http
