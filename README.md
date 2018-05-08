@@ -29,7 +29,7 @@ request for each change.  We suggest you create a separate branch for each
 pull request.  This will make it easier to work on multiple changes
 simultaneously.
 
-For example, to contribute a change to the skill point formula docs=:
+For example, to contribute a change to the skill point formula docs:
 
 1. Create a branch (say, "skillpointupdate") on your fork of [ccpgames/eveonline-third-party-documentation](https://github.com/ccpgames/eveonline-third-party-documentation)
 2. In your branch, make your changes to `formulas/skillpoints.md`.  Be sure to follow the standards for each section of the documentation.
