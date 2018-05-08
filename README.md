@@ -1,7 +1,7 @@
 [![Documentation Status](https://readthedocs.org/projects/eveonline-third-party-documentation/badge/?version=latest)](https://eveonline-third-party-documentation.readthedocs.io/en/latest/)
 
 # eveonline-third-party-documentation
-Documentation for EVE Online third-party developers. This covers things like ESI, Static Data Export (SDE), SSO, XML API (deprecated), and CREST (deprecated). You can read the
+Documentation for EVE Online third-party developers. This covers things like ESI, Static Data Export (SDE), and SSO.  You can read the
 latest version of the documentation [here](https://eveonline-third-party-documentation.readthedocs.io/en/latest/).
 Read the instructions below if you'd like to contribute.
 
@@ -29,10 +29,10 @@ request for each change.  We suggest you create a separate branch for each
 pull request.  This will make it easier to work on multiple changes
 simultaneously.
 
-For example, to contribute a change to the XML API docs for character  MarketOrders:
+For example, to contribute a change to the skill point formula docs=:
 
-1. Create a branch (say, "marketorders") on your fork of [ccpgames/eveonline-third-party-documentation](https://github.com/ccpgames/eveonline-third-party-documentation)
-2. In your branch, make your changes to `docs/xmlapi/character/char_marketorders.md`.  Be sure to follow the standards for each section of the documentation.
+1. Create a branch (say, "skillpointupdate") on your fork of [ccpgames/eveonline-third-party-documentation](https://github.com/ccpgames/eveonline-third-party-documentation)
+2. In your branch, make your changes to `formulas/skillpoints.md`.  Be sure to follow the standards for each section of the documentation.
 3. Submit a pull request from yourfork:marketorders to ccpgames:master
 
 Please also add your name to the CONTRIBUTORS file (sorted by first name please!).
